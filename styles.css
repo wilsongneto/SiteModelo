@@ -73,8 +73,8 @@ nav a:hover {
 /* Conteúdo principal */
 main {
     margin-left: 250px;
-    padding: 80px 20px;
-    width: 100%;
+    padding: 100px 20px;
+    width: calc(100% - 250px);
 }
 
 section {
