@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vagas Tech - Sem Experiência</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Barra de navegação superior -->
+    <header>
+        <h1>Vagas Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#dificuldades">Dificuldades</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Menu lateral -->
+    <aside>
+        <h2>Opções</h2>
+        <ul>
+            <li><a href="#home">🏠 Home</a></li>
+            <li><a href="#dificuldades">⚠️ Dificuldades</a></li>
+            <li><a href="#dicas">💡 Dicas</a></li>
+            <li><a href="#contato">📩 Contato</a></li>
+        </ul>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <section id="home">
+            <h2>Bem-vindo ao Vagas Tech</h2>
+            <p>Exploramos as dificuldades para conseguir vagas na área de tecnologia sem experiência e como superá-las.</p>
+        </section>
+
+        <section id="dificuldades">
+            <h2>Desafios para Iniciantes</h2>
+            <p>Falta de experiência é uma barreira comum. Empresas buscam profissionais qualificados, mas poucos querem dar a primeira oportunidade.</p>
+        </section>
+
+        <section id="dicas">
+            <h2>Dicas para Conseguir um Emprego</h2>
+            <ul>
+                <li>📌 Construa projetos práticos</li>
+                <li>📌 Participe de comunidades</li>
+                <li>📌 Aprenda GitHub e contribua em open-source</li>
+                <li>📌 Crie um bom portfólio</li>
+                <li>📌 Faça networking no LinkedIn</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Fale Conosco</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="msg"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
