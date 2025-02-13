@@ -7,13 +7,14 @@
 
 body {
     display: flex;
+    background-color: #3f5e5ede;
 }
 
 /* Menu lateral */
 /* Estilizando menu lateral */
 aside {
     width: 250px;
-    background: #1a1a2e;
+    background: #3f5e5ee8;
     color: white;
     height: 100vh;
     padding: 20px;
@@ -55,7 +56,7 @@ aside a:hover {
 /* Barra de navegação superior */
 header {
     width: 100%;
-    background: #bec1b9;
+    background: #3f5e5e;
     color: white;
     padding: 15px;
     text-align: center;
@@ -96,7 +97,7 @@ section {
 }
 
 h2 {
-    color: #f04202;
+    color: #000;
 }
 
 /* Formulário */
